@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
     ss.source_files = 'Source/Classes/Core/*.{h,m}'
     ss.dependency   'DZNPhotoPickerController/Services'
     ss.dependency   'DZNPhotoPickerController/Editor'
-    ss.dependency   'SDWebImage', '~> 5.2'
+    ss.dependency   'SDWebImage', '~> 3.7'
     ss.dependency   'DZNEmptyDataSet', '~> 1.7'
   end
 
